@@ -1,0 +1,8 @@
+prefix=/home/luan/mbzirc/install
+
+Name: lms1xx
+Description: Description of lms1xx
+Version: 0.1.5
+Cflags: 
+Libs: -L/home/luan/mbzirc/install/lib 
+Requires: roscpp

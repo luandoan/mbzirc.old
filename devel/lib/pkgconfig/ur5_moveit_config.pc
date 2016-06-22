@@ -1,0 +1,8 @@
+prefix=/home/luan/mbzirc/devel
+
+Name: ur5_moveit_config
+Description: Description of ur5_moveit_config
+Version: 1.1.6
+Cflags: 
+Libs: -L/home/luan/mbzirc/devel/lib 
+Requires: 

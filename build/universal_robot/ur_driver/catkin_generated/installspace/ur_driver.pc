@@ -1,0 +1,8 @@
+prefix=/home/luan/mbzirc/install
+
+Name: ur_driver
+Description: Description of ur_driver
+Version: 1.1.6
+Cflags: -I/home/luan/mbzirc/install/include
+Libs: -L/home/luan/mbzirc/install/lib 
+Requires: dynamic_reconfigure
