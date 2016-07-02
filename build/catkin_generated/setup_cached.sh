@@ -7,6 +7,6 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH="/opt/ros/indigo/lib/x86_64-linux-gnu:/home/luan/mbzirc/devel/lib:/home/luan/depthsense/devel/lib:/opt/ros/indigo/lib:/opt/ros/indigo/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages"
+export LD_LIBRARY_PATH="/opt/ros/indigo/lib/x86_64-linux-gnu:/home/luan/mbzirc/devel/lib:/home/luan/depthsense/devel/lib:/opt/ros/indigo/lib:/opt/ros/indigo/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages"
 export PKG_CONFIG_PATH="/opt/ros/indigo/lib/x86_64-linux-gnu/pkgconfig:/home/luan/mbzirc/devel/lib/pkgconfig:/home/luan/depthsense/devel/lib/pkgconfig:/opt/ros/indigo/lib/pkgconfig"
 export PWD="/home/luan/mbzirc/build"

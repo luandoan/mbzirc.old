@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<!--
+\file husky_mbzirc.launch
+\author	LUAN CONG DOAN	<luandoan@vt.edu>
+\copyright Copyright (c) July 2016, CMS Lab, Virginia Tech. All right reversed.
+
+\configuration of Husky + Ur5 arm + end effector for MBZIRC challenge 2
+-->
+
+<launch>	
+	<arg name="laser_enabled" default="true"/>
+	<arg name="ur5_enabled" default="true"/>
+	<arg name="kinect_enabled" default="true"/>
+  
+	<include file="$(find husky_gazebo)/launch/husky_empty_world.launch">	    
+  	   <arg name="world_name" value="$(find mbzirc_gazebo)/worlds/mbzirc_challenge2.world"/>	    
+	</include>
+
+<!--	<include file="$(find gazebo_ros)/launch/empty_world.launch">
+	  <arg name="world_name" value="$(find mbzirc_gazebo)/worlds/mbzirc_challenge2.world"/>	    
+	</include> -->
+</launch>

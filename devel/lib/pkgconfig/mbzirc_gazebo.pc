@@ -1,0 +1,8 @@
+prefix=/home/luan/mbzirc/devel
+
+Name: mbzirc_gazebo
+Description: Description of mbzirc_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/luan/mbzirc/devel/lib 
+Requires: 

@@ -484,16 +484,16 @@
     </link>
 
     <!-- On arm camera -->
-    <joint name="${prefix}usb_cam_joint" type="fixed">
+    <joint name="${prefix}depthsense_joint" type="fixed">
       <parent link="${prefix}mount_link" />
-      <child link = "${prefix}usb_cam_link" />
+      <child link = "${prefix}depthsense_link" />
       <origin xyz="0.0 0.0 0.02" rpy="0.0 0.0 ${pi}" />
     </joint>
 
-    <link name="${prefix}usb_cam_link">
+    <link name="${prefix}depthsense_link">
       <visual>
         <geometry>
-          <mesh filename="package://ur_description/meshes/ur5/visual/usbcam.dae" />
+          <mesh filename="package://ur_description/meshes/ur5/visual/depthsense.dae" />
         </geometry>
         <material name="LightGrey">
           <color rgba="0.7 0.7 0.7 1.0"/>
@@ -501,7 +501,7 @@
       </visual>
       <collision>
         <geometry>
-          <mesh filename="package://ur_description/meshes/ur5/collision/usbcam.stl" />
+          <mesh filename="package://ur_description/meshes/ur5/collision/depthsense.stl" />
         </geometry>
       </collision>
       
